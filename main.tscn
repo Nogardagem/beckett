@@ -52,7 +52,7 @@ offset_left = -960.0
 offset_right = 960.0
 offset_bottom = 88.0
 grow_horizontal = 2
-text = "Fake Couriway speedrun notes"
+text = "Beckett"
 label_settings = SubResource("LabelSettings_e1eh2")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -72,7 +72,7 @@ grow_horizontal = 2
 grow_vertical = 0
 size_flags_horizontal = 8
 theme_override_font_sizes/font_size = 32
-text = "Generate new notes"
+text = "Generate"
 
 [node name="Copy" type="Button" parent="."]
 layout_mode = 1
@@ -85,7 +85,7 @@ offset_left = -256.0
 offset_top = -120.0
 grow_horizontal = 0
 grow_vertical = 0
-text = "Copy notes"
+text = "Copy"
 
 [connection signal="pressed" from="Generate" to="." method="_on_generate_pressed"]
 [connection signal="pressed" from="Copy" to="." method="_on_copy_pressed"]
