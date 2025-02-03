@@ -16,7 +16,6 @@ config/features=PackedStringArray("4.3", "Mobile")
 boot_splash/show_image=false
 boot_splash/fullsize=false
 boot_splash/use_filter=false
-config/icon="res://background.png"
 
 [display]
 
